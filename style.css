@@ -1,0 +1,246 @@
+.container {
+  /* Template 2-Main-Mobile */
+
+  position: relative;
+  width: 375px;
+  height: 6968px;
+
+  /* Theme 2 / Neutral 11 */
+
+  background: #fff;
+}
+
+.container::after {
+  content: url("/Images/Illustration.png");
+  position: absolute;
+  width: 406.89px;
+  height: 312.03px;
+  left: 227.1px;
+  top: 320px;
+}
+
+.AppBar {
+  height: 92px;
+  width: 375px;
+  left: 0;
+  top: 0;
+  border-radius: 0;
+  position: absolute;
+
+  /* Theme 3 / Neutral 2 */
+
+  background: #3c3a39;
+}
+
+.StatusBar {
+  height: 44px;
+  width: 375px;
+  top: 0;
+  border-radius: 0;
+  position: absolute;
+  left: calc(50% - 375px / 2);
+}
+
+.ToolBar {
+  height: 48px;
+  width: 375px;
+  left: 0;
+  top: 44px;
+  border-radius: 0;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.ToolBar img {
+  height: 40px;
+  width: 40px;
+  left: 311px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 8px;
+  position: absolute;
+  right: 24px;
+  top: calc(50% - 40px / 2);
+}
+
+.Logo {
+  height: 44px;
+  width: 101px;
+  left: 12px;
+  border-radius: 0;
+  padding: 10px 12px 10px 12px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: absolute;
+  top: calc(50% - 44px / 2);
+}
+
+.Logo p {
+  /* width: 80px;
+  height: 24px; */
+
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 14px;
+
+  /* identical to box height, or 133% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  /* Theme 3 / Neutral 11 */
+
+  color: #fff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.headline {
+  /* Headline */
+
+  /* Auto layout */
+
+  padding: 1px 24px;
+  gap: 12px;
+  position: absolute;
+  width: 327px;
+  height: 590px;
+  left: 0;
+  top: 92px;
+
+  /* Theme 3 / Neutral 1 */
+
+  background: #1c1a19;
+}
+
+.content {
+  padding-top: 75px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+header {
+  /* Primary Text */
+
+  left: 24px;
+  top: 120px;
+  border-radius: nullpx;
+  width: 327px;
+  height: 124px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 64px;
+
+  /* or 114% */
+
+  letter-spacing: 0.37px;
+  margin-bottom: 20px;
+
+  /* Theme 3 / Primary 1 */
+
+  color: #ff6b00;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.SupportingText {
+  /* Supporting Text */
+  height: 27px;
+  width: 327px;
+  left: 24px;
+  top: 256px;
+  border-radius: nullpx;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+
+  /* or 133% */
+  margin-bottom: 10px;
+
+  /* Theme 3 / Primary 4 */
+
+  color: #fff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.discription {
+  /* Description */
+
+  width: 327px;
+  height: 136px;
+
+  /* Theme 1 / Body Reguler 2 */
+
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 24px;
+
+  /* or 150% */
+
+  /* Theme 3 / Neutral 11 */
+
+  color: #fff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.SocialMedia {
+  /* Social Media */
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 0;
+  width: 200px;
+  height: 40px;
+  gap: 10px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+}
+
+.SocialMedia img {
+  height: 24px;
+  width: 24px;
+  left: 8px;
+  top: 8px;
+  border-radius: 0;
+}
