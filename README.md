@@ -1,27 +1,21 @@
-Portfolio
 
-Its a first page of mobile portfolio as per the requirements of the project. It is designed using HTML and CSS . 
+Project Name-Portfolio
+Its a first page of mobile portfolio as per the requirements of the project. It is designed using HTML and CSS .
 
 Built With
-HTML
-CSS
+ HTML CSS
 
 Getting Started
-
-
-To get a local copy up and running follow these simple example steps.
-clone repo named "portfolio"
+ Clone repo named "portfolio" from the repo link attached
 
 Prerequisites
 GITHUB
-VSCODE
+VSCODE  
+👤 Author1
 
-Authors
-👤 karan jain
+GitHub: @https://github.com/karanJ2212
 
-GitHub: [@githubhandle](https://github.com/karanJ2212)
-Twitter: @karanjain2212
-LinkedIn:[ LinkedIn](https://www.linkedin.com/in/karanjain2212/)
+LinkedIn: inkedin.com/in/karanjain2212/
 
 🤝 Contributing
 Contributions, issues, and feature requests are welcome!
@@ -31,7 +25,9 @@ Feel free to check the issues page.
 Show your support
 Give a ⭐️ if you like this project!
 
-
+Acknowledgments
+Hat tip to anyone whose code was used
+Inspiration
 etc
 📝 License
 This project is MIT licensed.
