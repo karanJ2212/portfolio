@@ -2,7 +2,8 @@
 
 # Portfolio
 
-Its a first page of mobile portfolio as per the requirements of the project. It is designed using HTML and CSS .
+This is  mobile version of  portfolio, designed as per the requirements of the project. It is designed using HTML and CSS .
+It contains Introduction, projects skills and about page
 
 
 ## Built With
