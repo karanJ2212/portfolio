@@ -295,6 +295,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  float: right;
   gap: 5px;
   padding-left: 0;
   margin-bottom: 0;
@@ -759,4 +760,109 @@ button:enabled {
 button:hover {
   background: #fff5e1;
   border: 1px solid #f55800;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  gap: 58px;
+
+  position: absolute;
+  width: 375px;
+  height: 844px;
+  left: 0px;
+  top: 6038px;
+}
+
+.contact h2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  padding-left: 24px;
+  padding-right: 24px;
+  width: 327px;
+  height: 216px;
+
+  text-align: center;
+
+  /* Neutrals/N800 */
+
+  color: #172b4d;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.inputText {
+  border: none;
+  border-bottom: 1px solid #dbd8d7;
+  padding-bottom: 14px;
+  padding-top: 14px;
+  padding-right: 15px;
+  padding-left: 15px;
+  width: 325px;
+}
+
+.ContactForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 5px;
+  width: 375px;
+  padding-left: 24px;
+  padding-right: 24px;
+  list-style: none;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.inputTextarea {
+  height: 114px;
+  width: 354px;
+  background-color: #fbf8f7;
+  border: none;
+  margin-top: 24px;
+  padding: 12px;
+}
+.contact-button {
+  padding: 12px 12px;
+  width: 131px;
+  height: 48px;
+  border: none;
+  color: #fff;
+}
+
+.ContactForm li:last-child {
+  align-self: center;
+}
+
+hr {
+  background: #dbd8d7;
+  width: 327px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  width: 375px;
+  height: 72px;
+  left: 0px;
+  top: 6886px;
+  border-top: 1px solid #8993a4;
+}
+.footer .SocialMedia {
+  align-items: center;
 }
