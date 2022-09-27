@@ -770,16 +770,15 @@ button:hover {
   padding: 0;
   margin: 0;
   gap: 58px;
-
   position: absolute;
   width: 375px;
   height: 844px;
-  left: 0px;
+  left: 0;
   top: 6038px;
 }
 
 .contact h2 {
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -788,7 +787,6 @@ button:hover {
   padding-right: 24px;
   width: 327px;
   height: 216px;
-
   text-align: center;
 
   /* Neutrals/N800 */
@@ -822,7 +820,6 @@ button:hover {
   padding-left: 24px;
   padding-right: 24px;
   list-style: none;
-
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -836,6 +833,7 @@ button:hover {
   margin-top: 24px;
   padding: 12px;
 }
+
 .contact-button {
   padding: 12px 12px;
   width: 131px;
@@ -859,10 +857,11 @@ hr {
   position: absolute;
   width: 375px;
   height: 72px;
-  left: 0px;
+  left: 0;
   top: 6886px;
   border-top: 1px solid #8993a4;
 }
+
 .footer .SocialMedia {
   align-items: center;
 }
