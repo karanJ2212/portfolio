@@ -865,3 +865,20 @@ hr {
 .footer .SocialMedia {
   align-items: center;
 }
+
+.contact-button:hover {
+  border: 1px solid rgba(245, 88, 0, 1);
+  background: #fff5e1;
+  border: 1px solid #f55800;
+  color: rgba(245, 88, 0, 1);
+}
+
+.contact-button:active {
+  background: #e05304;
+  color: #fff5e1;
+}
+
+.contact-button:disabled {
+  background: #f4f1f0;
+  color: #3c3a39;
+}
