@@ -17,6 +17,10 @@
   overflow: hidden;
 }
 
+.contact-title:hover {
+  transform: translate(0, 18px);
+}
+
 @media screen and (max-width: 768px) {
   header {
     display: flex;
