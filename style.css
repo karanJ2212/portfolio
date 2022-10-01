@@ -1,3 +1,7 @@
+/* body {
+  overflow: hidden;
+} */
+
 * {
   border: 0;
   margin: 0;
@@ -6,6 +10,11 @@
   font-family: "Inter", sans-serif;
   font-family: "Poppins", sans-serif;
   font-family: "Roboto", sans-serif;
+}
+
+.container {
+  max-width: 100% !important;
+  overflow: hidden;
 }
 
 @media screen and (max-width: 768px) {
@@ -149,7 +158,7 @@
   }
 
   .MultipostStories img {
-    width: 440px;
+    width: 448px;
     height: 330;
   }
 
@@ -837,6 +846,10 @@
     height: 435px;
   }
 
+  #w2:hover {
+    border: solid 2px #000;
+  }
+
   .work1 span {
     display: none;
   }
@@ -855,6 +868,10 @@
     height: 435px;
   }
 
+  #w3:hover {
+    border: solid 2px #000;
+  }
+
   #w3 .work-title::after {
     content: "Website Protfolio";
   }
@@ -863,6 +880,10 @@
     background-image: url("/img/project2.png");
     background-repeat: no-repeat;
     height: 435px;
+  }
+
+  #w4:hover {
+    border: solid 2px #000;
   }
 
   #w4 .work-title::after {
@@ -875,6 +896,10 @@
     height: 435px;
   }
 
+  #w5:hover {
+    border: solid 2px #000;
+  }
+
   #w5 .work-title::after {
     content: "Data Dashboard Healthcare";
   }
@@ -883,6 +908,10 @@
     background-image: url("/img/website2.png");
     background-repeat: no-repeat;
     height: 435px;
+  }
+
+  #w6:hover {
+    border: solid 2px #000;
   }
 
   #w6 .work-title::after {
