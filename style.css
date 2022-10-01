@@ -568,6 +568,10 @@
   }
 }
 
+.MultipostStories img:hover {
+  transform: scale(1.1);
+}
+
 @media screen and (min-width: 768px) {
   header {
     display: flex;
