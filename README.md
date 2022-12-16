@@ -2,8 +2,9 @@
 
 # Portfolio
 
-This is  mobile version of  portfolio, designed as per the requirements of the project. It is designed using HTML and CSS .
-It contains Introduction, projects skills and about page
+This is portfolio webite, It has desktop and mobile verson. Designed as per the requirements of the figma design provided by Microverse.
+It is designed using HTML and CSS .
+It contains Introduction, projects skills and about page.
 
 
 ## Built With
